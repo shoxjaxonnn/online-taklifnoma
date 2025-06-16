@@ -116,6 +116,7 @@ h4 {
 }
 .party {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding-top: 100px;
 }
@@ -131,10 +132,14 @@ h4 {
   width: 180px;
   height: 100px;
   padding-left: 30px;
-  border-right: 1px solid #000;
 }
 .party .right p {
   font-size: 3.05rem;
+  color: #333;
+  font-family: "Great Vibes", cursive;
+}
+.party .right span{
+   font-size: 2.05rem;
   color: #333;
   font-family: "Great Vibes", cursive;
 }
